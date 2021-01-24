@@ -17,7 +17,8 @@
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
     "prepublishOnly": "yarn build",
-    "deploy": "build-storybook && gh-pages -d storybook-static && rm -r storybook-static"
+    "deploy": "build-storybook && gh-pages -d storybook-static && rm -r storybook-static",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
