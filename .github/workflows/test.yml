@@ -9,6 +9,6 @@ jobs:
     container: 'node:12-alpine'
     steps:
     - uses: actions/checkout@v1
-    - run: npm install --frozen-lockfile
+    - run: npm install
     - run: npm build --if-present
     - run: npm test
