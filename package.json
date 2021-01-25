@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lagbana/component-library.git"
+    "url": "git+https://github.com/vogi-inc/component-library-ld.git"
   },
   "keywords": [
     "React",
@@ -36,9 +36,9 @@
   "author": "Dustin Irving && Larry Agbana",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lagbana/component-library/issues"
+    "url": "https://github.com/vogi-inc/component-library-ld/issues"
   },
-  "homepage": "https://github.com/Lagbana/component-library/blob/main/README.md",
+  "homepage": "https://github.com/vogi-inc/component-library-ld/blob/main/README.md",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",

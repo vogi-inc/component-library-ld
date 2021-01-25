@@ -9,6 +9,6 @@ jobs:
     container: 'node:12-alpine'
     steps:
     - uses: actions/checkout@v1
-    - run: yarn install --frozen-lockfile
-    - run: yarn build --if-present
-    - run: yarn test
+    - run: npm install --frozen-lockfile
+    - run: npm build --if-present
+    - run: npm test
