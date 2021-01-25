@@ -2,9 +2,6 @@
   "name": "@vogi-inc/component-library-ld",
   "version": "1.0.6",
   "main": "build/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/vogi-inc"
-  },
   "module": "build/index.esm.js",
   "files": [
     "build"
