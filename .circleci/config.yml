@@ -1,0 +1,25 @@
+version: 2.1
+orbs:
+  node: 'circleci/node@3.0.0'
+jobs:
+  test:
+    executor:
+      name: 'node/default'
+      tag: '12.20'
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          name: Test
+          command: npm test
+      - run:
+          name: Semantic-Release
+          command: npm run semantic-release
+
+workflows:
+  test:
+    jobs:
+      - test:
+          context:
+            - 'Semantic Release'
